@@ -1,0 +1,21 @@
+{
+  "name": "test-swag_labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && cucumber-js features"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@types/chai": "^4.3.9",
+    "@types/selenium-webdriver": "^4.1.19",
+    "chai": "^4.3.10",
+    "chromedriver": "^119.0.1",
+    "selenium-webdriver": "^4.14.0",
+    "typescript": "^5.2.2"
+  }
+}
